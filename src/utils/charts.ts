@@ -22,6 +22,10 @@ export const INIT_CHART = (CHART_WRAPPER) => {
 
   const CHART = new Chart(CANVAS, {
     type: 'doughnut',
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+    },
     data: {
       labels: LABELS,
       datasets: [
