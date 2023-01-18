@@ -12,5 +12,9 @@ window.Webflow.push(() => {
       utils.INIT_CHART(WRAPPER);
     });
   }
+
+  const READ_MORES = [...document.querySelectorAll('[data-read-more="wrapper"]')];
+  if (READ_MORES.length !== 0) utils.READ_MORES(READ_MORES);
+
   if (pathname.includes('resources')) utils.RESET_COLLECTION();
 });
