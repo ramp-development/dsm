@@ -3,3 +3,4 @@ export { DISCLAIMER } from './disclaimer';
 export { NAV } from './nav';
 export { READ_MORES } from './readMores';
 export { RESET_COLLECTION } from './resetCollection';
+export { TICKER } from './ticker';
