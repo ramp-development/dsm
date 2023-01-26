@@ -1,5 +1,5 @@
 export const TICKER = (TICKER_ITEMS) => {
-  const API_KEY = `AIzaSyA3pHt2H6BylgOG1NNGrr_3UUQVOZrbisI`;
+  const API_KEY = `AIzaSyDxSEFhLRGRvn3ftQnaDSPDmpfswoG07qI`;
   const SPREADSHEET_ID = `1OYBLYVjn0Jw9cZRLnd6IR6_c-BSsm70U_mF-ik7ZUkA`;
 
   const URL = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values:batchGet?ranges=%27Stock%20Prices%27&key=${API_KEY}`;
